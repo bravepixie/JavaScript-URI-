@@ -8,8 +8,11 @@ function setup() {
   fill(225,0,0, 150)
   rect(99,240,190,240,40) //shirt
   fill(0)
-  line(140,400,140,290)
-  line(250,400,250,290)
+  line(140,400,140,290)//left hand
+  line(250,400,250,290)//right hand
+  line(195,350,195,290)//shirt opening
+  ellipse(195, 300, 6, 7);//first button
+  ellipse(195, 325, 6, 7);//second button
   fill(0)
   rect(143, 51, 126, 108, 52);//hair
   fill(255, 255, 153);
@@ -48,8 +51,5 @@ function setup() {
   fill(0, 0, 0);
 rect(168, 61, 80, 44, 10);  //front hair
 }
-function draw() {
-
-  
-  
+function draw() { 
 }
