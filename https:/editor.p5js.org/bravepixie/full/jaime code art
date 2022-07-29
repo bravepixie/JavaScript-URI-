@@ -8,7 +8,8 @@ function setup() {
   fill(225,0,0, 150)
   rect(99,240,190,240,40) //shirt
   fill(0)
-  line(105,100)
+  line(140,400,140,290)
+  line(250,400,250,290)
   fill(0)
   rect(143, 51, 126, 108, 52);//hair
   fill(255, 255, 153);
@@ -37,7 +38,7 @@ function setup() {
   noFill();
   //arc(198,175,20,15,270,90);//nose
   beginShape();
-    curveVertex(180, 150);
+    curveVertex(180, 150);                                             
     curveVertex(200, 154);      
     curveVertex(200, 180);               
     curveVertex( 10, 120);
